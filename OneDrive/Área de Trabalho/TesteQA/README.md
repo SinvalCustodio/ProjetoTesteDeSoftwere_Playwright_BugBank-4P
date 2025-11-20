@@ -84,4 +84,4 @@ Se surgir algum erro ao executar os comandos, cole a saída aqui que eu ajudo a 
 
 ---
 
-Arquivo gerado automaticamente pelo assistente — contém instruções para rodar e integrar a suíte Playwright.
+Arquivo foi realizado com algumas integrações, algumas delas com ajuda do corretor e inteligencia artificial  — contém instruções para rodar e integrar a suíte Playwright.
