@@ -3,16 +3,17 @@
 [![Playwright tests](https://github.com/SinvalCustodio/ProjetoTesteDeSoftwere_Playwright_BugBank-4P/actions/workflows/playwright.yml/badge.svg)]
 (https://github.com/SinvalCustodio/ProjetoTesteDeSoftwere_Playwright_BugBank-4P/actions/workflows/playwright.yml);
 
-Este repositório contém uma suíte de testes Playwright criada para o site BugBank (exemplo público). Abaixo está um resumo do que foi feito, como executar os testes localmente, como gerar relatórios e como o CI foi configurado.
+Este repositório contém uma suíte de testes Playwright criada para o site BugBank (exemplo público). Aqui abaixo está um resumo do que foi feito, como executar os testes localmente, como gerar relatórios e como o CI foi configurado.
 
 # Playwright BugBank - Testes Automatizados
 
-Este repositório contém a suíte de testes Playwright que eu implementei e configurei para o site BugBank (exemplo público). A seguir descrevo, em primeira pessoa, o que eu fiz passo a passo, por que fiz e como você pode reproduzir o mesmo ambiente localmente.
+Este repositório contém a suíte de testes Playwright que eu implementei e configurei para o site BugBank (exemplo público). A seguir descrevo, o que eu fiz passo a passo, por que fiz e como você pode reproduzir o mesmo ambiente localmente.
 
 ## O que eu fiz (passo a passo)
 
 1. Inspecionei os arquivos de teste existentes em `Tests/` e identifiquei problemas de sintaxe e imports. Em particular:
-	- `Tests/hello.world.spec.js` continha referências incorretas (ex.: tentativa de usar uma URL como argumento de `expect`) e seletores frágeis. Reescrevi o teste para navegar para a página correta e usar asserções Web-First do Playwright de forma mais resiliente.
+	- `Tests/hello.world.spec.js` continha referências incorretas (ex.: tentativa de usar uma URL como argumento de `expect`) e seletores frágeis.
+	 - Reescrevi o teste para navegar para a página correta e usar asserções Web-First do Playwright de forma mais resiliente.
 	- `Tests/login.spec.js` usava um import incorreto em um dos testes. Corrigi o import para `@playwright/test` e ajustei o teste que procurava por elementos que não existiam (substituí por verificações reais do site: título e link de requisitos).
 
 2. Criei e/ou atualizei a configuração do Playwright:
