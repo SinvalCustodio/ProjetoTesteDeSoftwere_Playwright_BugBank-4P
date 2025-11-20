@@ -74,16 +74,12 @@ Se quiser adicionar um badge de status no `README.md`, após o primeiro push voc
 - Expandir a suíte de testes com cenários de fluxo (login, transferências, etc.).
 - Adicionar execução em múltiplas browsers/configurações via `projects` no `playwright.config.js` se precisar de cobertura cross-browser.
 
-Se quiser, eu posso:
-
-- Gerar um patch pronto para commit com todas as mudanças (posso criar e aplicar o commit localmente se você autorizar).
-- Adicionar um badge de status no `README.md`.
-- Configurar um script `test:watch` para desenvolvimento local.
 
 ## Contato / notas
 
 Se surgir algum erro ao executar os comandos, cole a saída aqui que eu ajudo a depurar.
 
----
 
-Arquivo gerado automaticamente pelo assistente — contém instruções para rodar e integrar a suíte Playwright.
+
+
+
