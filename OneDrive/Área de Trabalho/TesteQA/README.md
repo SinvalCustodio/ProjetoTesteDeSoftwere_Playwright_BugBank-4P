@@ -1,5 +1,7 @@
 # Playwright BugBank - Testes Automatizados
 
+[![Playwright tests](https://github.com/SinvalCustodio/ProjetoTesteDeSoftwere_Playwright_BugBank-4P/actions/workflows/playwright.yml/badge.svg)](https://github.com/SinvalCustodio/ProjetoTesteDeSoftwere_Playwright_BugBank-4P/actions/workflows/playwright.yml)
+
 Este repositório contém uma suíte de testes Playwright criada para o site BugBank (exemplo público). Abaixo está um resumo do que foi feito, como executar os testes localmente, como gerar relatórios e como o CI foi configurado.
 
 ## Resumo das alterações
